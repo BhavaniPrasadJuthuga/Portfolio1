@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhavani Prasad</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fec1d94ff2.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <div ><img src="images/logo.jpg"></div>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Service</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+    </div>
+    <div class="header-text container">
+        <h1>Web Developer</h1>
+        <p>Hi,I'm <span>Bhavani Prasad Juthuga </span> <br>From India</p>
+
+    </div>
+</div>
+
+
+<!--------------------------about----------------------->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-2"><img src="images/PicsArt_05-13-09.43.04.png"></div>
+            <div class="about-col-1">
+                <h1 class="sub-title">About Me</h1>
+                <p class="discription">I'm a web designer,enthusiastic learner which push me to learn new technologies and i'm very passionate and dedicated to my work.I had an expereince in web development through my personal projects and learned the web development with my personal intrest, I have acquired skills and knowledge necessary to make your project success.I enjoy each and every step of the design process,from discussion to implimentation and i'm looking forward to develop my skills by working in a environment which gives me the challanges learn more about these technologies</p>
+                <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skills')">SKILLS</p>
+                        <p class="tab-links" onclick="opentab('education')">EDUCATION</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>DataBase Mangement</span><br>Familar with technologies Like SQLite &Excel Sheets</li>
+                        <li><span>Web Development<br></span> skills in Web development and Designing </li>
+                        <li><span>Software Development</span><br>having skills in Python & C Languages </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>B.Tech in Mechanical Engineering 2019-23</span><br>Rajiv Gandhi University of Knowledge and Technologies,Ongole</li>
+                        <li><span>Pre-University Course 2017-19<br></span> Rajiv Gandhi University of Knowledge and Technologies</li>
+                        <li><span>SSC 2017</span><br>B.R.M.V.M High Scool,Palakol</li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<!--------------------------services----------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Service</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-laptop-code"></i>
+                <h2 class="service-heading">Web Development</h2>
+                <p class="service-discription">I am a Web Developer and Web Designer,acquired knowledge of web development and Designing through internet and spend lot of time in personal web project</p>
+                <a href="#" class="service-a">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2 class="service-heading">Database Mangement</h2>
+                <p class="service-discription">I learned about the Database mangement to improve my fullstack skills familar with SQlite, Excell Sheets and more</p>
+                <a href="#" class="service-a">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2 class="service-heading">Software Development</h2>
+                <p class="service-discription"> having a good skills in the software languages like Python,C which are used in the software development </p>
+                <a href="#" class="service-a">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------------------------portfolio--------------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/thewebsites1.jpg">
+                <div class="layer">
+                    <h3>Personal Web Sites </h3>
+                    <p>The personal Websites which are developed for different usages as my personal projects </p>
+                    <a href=""><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/thegames.jpg">
+                <div class="layer">
+                    <h3>Games Developed</h3>
+                    <p>The simple games which are developed using the HTML,CSS&JS </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <button class="btn"><a href="#">See More</a></button>
+    </div>
+</div>
+
+
+<!-------------------------conatct------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"></i>Conatct Me</h1>
+                <p class="info"><i class="fa-solid fa-envelope"></i>bhavaniprasadjuthuga2819@gmail.com</p>
+                <p class="info"><i class="fa-solid fa-phone"></i>9381109824</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/bhavaniprasad.juthuga/"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="https://www.instagram.com/mr_pj____/"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a class="btn btn2" href="images/Resume_(3)[1].pdf" download>CV Download</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" row="6" placeholder="Your Message"></textarea>
+                    <button class="btn btn2 btn3" type="submit">submit</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<script>
+
+    var tablinks=document.getElementsByClassName('tab-links')
+    var tabcontents=document.getElementsByClassName('tab-contents')
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-links")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-links")
+        event.currentTarget.classList.add("active-links")
+        var tabrequired=document.getElementById(tabname)
+        tabrequired.classList.add("active-tab");
+
+    }
+
+
+</script>
+<script>
+    var sidemenu=document.getElementById("sidemenu")
+    var navlose=document.getElementsByClassName("fa-xmark")
+    var navmenu=document.getElementsByClassName("fa-bars")
+
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+
+
+</script>
+
+
+    
+</body>
+</html>
